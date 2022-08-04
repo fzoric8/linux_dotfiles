@@ -15,9 +15,9 @@ All of the dotfiles used for setting up Ubuntu Linux 20.04 programs.
 * [zsh & ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 * [vim](https://www.vim.org/) 
 * [i3](https://i3wm.org/)
-* [tmux & tmuxinator] (https://github.com/tmuxinator/tmuxinator)
-* [ranger](
-* [docker]
+* [tmux & tmuxinator](https://github.com/tmuxinator/tmuxinator)
+* [ranger](https://github.com/ranger/ranger) 
+* [docker](https://docs.docker.com/get-started/)
 
 ## Instructions
 
