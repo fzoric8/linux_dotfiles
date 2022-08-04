@@ -8,6 +8,14 @@
 
 # How to automatically install vim
 
-Example of vim installation with all following plugins can be found in 
-following [Dockerfile](https://github.com/larics/docker_files/blob/master/ros-noetic/moveit_ros/Dockerfile)
+In order to automatically install vim, run following commands: 
+```
+sudo apt-get install vim-nox
+```
+And after that, run: 
+
+```
+./install.sh
+```
+
 
