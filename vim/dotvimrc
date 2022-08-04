@@ -1,0 +1,38 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set encoding=utf-8
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" vim plugin manager
+Plugin 'VundleVim/Vundle.vim'
+" github vim integration 
+Plugin 'tpope/vim-fugitive'
+" html parser 
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" autocomplete plugin"
+Plugin 'ycm-core/YouCompleteMe' 
+" pluging for status bar
+Plugin 'vim-airline/vim-airline'
+" plugin for file manager
+Plugin 'preservim/nerdtree'
+" plugin for line numbering 
+Plugin 'ericbn/vim-relativize'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+set number 
+
+
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" see :h vundle for more details or wiki for FAQ
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
