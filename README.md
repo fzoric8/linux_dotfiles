@@ -1,5 +1,7 @@
 # Linux Dotfiles
-All of the dotfiles used for setting up Ubuntu Linux 20.04 programs.  
+All of the dotfiles used for setting up Ubuntu Linux 20.04 programs. 
+
+Nice dotfiles [intro](https://se-education.org/learningresources/contents/dotfiles/Dotfiles.html). 
 
 ## Dependencies
 
